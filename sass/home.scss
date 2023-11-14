@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+img{
+    vertical-align: middle;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.container{
+    width: 1320px;
+    margin: auto;
+}
+
+/* common css ends */
+
+$font-main: 'Poppins', sans-serif;
+$text-color: #3F4255;
+$gray-color: #9093A6;
+$yellow-color: #FFE145;
+
+// nav css starts
+
+nav{
+    padding: 10px 0px;
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ul{
+            display: flex;
+            li{
+                margin-left: 20px;
+                a{
+                    color: $gray-color;
+                }
+            }
+        }
+    }
+    hr{
+        margin-top: 10px;
+        opacity: 0.5;
+    }
+}
+
+// nav css ends
+
+// banner css starts
+
+#banner__main{
+    padding-top: 25px;
+    padding-bottom: 45px;
+    .banner{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .banner--left{
+            padding-top: 182px;
+            padding-bottom: 273px;
+            h2{
+                font-style: $font-main;
+                font-weight: 300;
+                color: #3F4255;
+                font-size: 4rem;
+                padding-bottom: 88px;
+            }
+            .banner--left__content{
+                width: 260px;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                p{
+                    padding: 18px 24px;
+                    width: 118px;
+                    font-size: 0.8rem;
+                    border: 1px solid $yellow-color;
+                    font-style: $font-main;
+                    color: #9093A6;
+                    span{
+                        font-style: $font-main;
+                        font-weight: 800;
+                        color: #3F4255;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+// banner css ends
+
+
+@mixin title{
+  font-size: 2rem;
+  font-style: 'Poppins', sans-serif;
+  font-weight: 300;
+  line-height: 64px;
+  letter-spacing: 2.88px;
+  color: #3F4255;
+}
+
+
+
+// resturant css starts
+
+#resturant__main{
+    padding: 48px 0px;
+    .resturant{
+        .resturant__top{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 10px;
+            h2{
+                @include title()
+            }
+            a{
+                padding: 16px 24px;
+                background: $gray-color;
+                color: $text-color;
+                font-style: $font-main;
+            }
+        }
+        .resturant__bottom{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+
+
+
+// resturant css ends
+
+// adresss css starts
+
+#address__main{
+    padding: 80px 0px;
+    background: $gray-color;
+    .address{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0px 50px;
+        .address--left{
+            h2{
+                @include title()
+            }
+            p{
+                
+                font-size: 0.8rem;
+                font-style: $font-main;
+                color: #3F4255;
+            }
+        }
+        .address--right{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            form{
+                input{
+                    padding: 24px 48px;
+                    border-radius: 10px;
+                    -webkit-border-radius: 10px;
+                    -moz-border-radius: 10px;
+                    -ms-border-radius: 10px;
+                    -o-border-radius: 10px;
+}
+            }
+            button{
+                padding: 26px 24px;
+                background: $yellow-color;
+                color: #9093A6;
+            }
+        }
+    }
+}
+
+// adress css ends
+
+// <!-- Specialities css starts -->
+
+#specialities__main{
+    padding-top: 72px;
+    .specialities{
+        .specialities--top{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 48px;
+            h2{
+                @include title()
+            }
+            a{
+                padding: 16px 24px;
+                background: $gray-color;
+                color: $text-color;
+                font-style: $font-main;
+            }
+        }
+        .specialities--bottom{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+
+// <!-- Specialities css ens -->
+
+
+// map css starts
+
+#map__main{
+    .map{
+        padding-top: 50px;
+    }
+}
+
+
+// map css ends
+
+
+// #YellowKitchens in instagram css starst
+
+#yk__main{
+    padding-top: 72px;
+    .yk{
+        .yk--top{
+            h2{
+                @include title();
+            }
+            span{
+                opacity: 0.5;
+            }
+        }
+        .yk-bottom{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+
+// #YellowKitchens in instagram css ends
+
+
+// footer css starts
+
+footer{
+    padding: 48px 0px;
+    background: #3F4255;
+    .foot{
+        .foot--top{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .foot--title{
+                font-family: Poppins;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 600;
+                color: white;
+                margin-bottom: 24px;
+            }
+            hr{
+                margin: 50px 0px;
+            }
+            img{
+                background: white;
+            }
+            .app{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            ul{
+                    a,p{
+                        font-family: Martel Sans;
+                        font-style: normal;
+                        font-weight: 100;
+                        font-size: 16px;
+                        color: #D4D7E5;
+                    }
+                
+            }
+            
+        }
+        .foot--bottom{
+            margin-top: 100px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .foot--bottom_left{
+                i{
+                    color: #D4D7E5;
+                }
+            }
+            .foot--bottom_right{
+                display: flex;
+                flex-wrap: wrap;
+                p{
+                    color: #D4D7E5;
+                    margin-left: 20px;
+                }
+
+        }
+            
+    }
+}
+}
+
+
+
+// fotter css ends
+
+
+
+// responsive // // // // // // / / / / / // / / / // / 
+
+
+$small-min: 350px;
+$small-max: 991.98px;
+
+$big-min: 992px;
+$big-max: 1199.98px;
+
+$big-xl-min: 1200px;
+$big-xl-max: 1399.98px;
+
+@media (min-width: $small-min) and (max-width: $small-max) {
+    .container{
+        width: 340px;
+        margin: auto;
+    }
+    #banner__main{
+        .banner{
+            .banner--left{
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            .banner--right{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        .banner--item{
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+
+    #items__main{
+        img{
+            width: 100%;
+        }
+    }
+
+    #map__main{
+        img{
+            width: 100%;
+        }
+    }
+    
+}
+
+
+@media (min-width: $big-min) and (max-width: $big-max){
+    .container{
+        width: 900px;
+        margin: auto;
+    }
+    #banner__main{
+        .banner{
+            .banner--left{
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            .banner--right{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        .banner--item{
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+
+    #items__main{
+        img{
+            width: 100%;
+        }
+    }
+
+    #map__main{
+        img{
+            width: 100%;
+        }
+    }
+}
+
+
+
+@media (min-width: $big-xl-min) and (max-width: $big-xl-max){
+    .container{
+        width: 1100px;
+        margin: auto;
+    }
+
+    #banner__main{
+        .banner{
+            flex-wrap: nowrap;
+            .banner--left{
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            .banner--right{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        .banner--item{
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+
+    #items__main{
+        img{
+            width: 100%;
+        }
+    }
+
+    #map__main{
+        img{
+            width: 100%;
+        }
+    }
+
+}

@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.container {
+  width: 1320px;
+  margin: auto;
+}
+
+/* common css ends */
+nav {
+  padding: 10px 0px;
+}
+nav .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .nav ul {
+  display: flex;
+}
+nav .nav ul li {
+  margin-left: 20px;
+}
+nav .nav ul li a {
+  color: #9093A6;
+}
+nav hr {
+  margin-top: 10px;
+  opacity: 0.5;
+}
+
+#banner__main {
+  padding-top: 25px;
+  padding-bottom: 45px;
+}
+#banner__main .banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#banner__main .banner .banner--left {
+  padding-top: 182px;
+  padding-bottom: 273px;
+}
+#banner__main .banner .banner--left h2 {
+  font-style: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #3F4255;
+  font-size: 4rem;
+  padding-bottom: 88px;
+}
+#banner__main .banner .banner--left .banner--left__content {
+  width: 260px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#banner__main .banner .banner--left .banner--left__content p {
+  padding: 18px 24px;
+  width: 118px;
+  font-size: 0.8rem;
+  border: 1px solid #FFE145;
+  font-style: "Poppins", sans-serif;
+  color: #9093A6;
+}
+#banner__main .banner .banner--left .banner--left__content p span {
+  font-style: "Poppins", sans-serif;
+  font-weight: 800;
+  color: #3F4255;
+}
+
+#resturant__main {
+  padding: 48px 0px;
+}
+#resturant__main .resturant .resturant__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+#resturant__main .resturant .resturant__top h2 {
+  font-size: 2rem;
+  font-style: "Poppins", sans-serif;
+  font-weight: 300;
+  line-height: 64px;
+  letter-spacing: 2.88px;
+  color: #3F4255;
+}
+#resturant__main .resturant .resturant__top a {
+  padding: 16px 24px;
+  background: #9093A6;
+  color: #3F4255;
+  font-style: "Poppins", sans-serif;
+}
+#resturant__main .resturant .resturant__bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#address__main {
+  padding: 80px 0px;
+  background: #9093A6;
+}
+#address__main .address {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0px 50px;
+}
+#address__main .address .address--left h2 {
+  font-size: 2rem;
+  font-style: "Poppins", sans-serif;
+  font-weight: 300;
+  line-height: 64px;
+  letter-spacing: 2.88px;
+  color: #3F4255;
+}
+#address__main .address .address--left p {
+  font-size: 0.8rem;
+  font-style: "Poppins", sans-serif;
+  color: #3F4255;
+}
+#address__main .address .address--right {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#address__main .address .address--right form input {
+  padding: 24px 48px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#address__main .address .address--right button {
+  padding: 26px 24px;
+  background: #FFE145;
+  color: #9093A6;
+}
+
+#specialities__main {
+  padding-top: 72px;
+}
+#specialities__main .specialities .specialities--top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 48px;
+}
+#specialities__main .specialities .specialities--top h2 {
+  font-size: 2rem;
+  font-style: "Poppins", sans-serif;
+  font-weight: 300;
+  line-height: 64px;
+  letter-spacing: 2.88px;
+  color: #3F4255;
+}
+#specialities__main .specialities .specialities--top a {
+  padding: 16px 24px;
+  background: #9093A6;
+  color: #3F4255;
+  font-style: "Poppins", sans-serif;
+}
+#specialities__main .specialities .specialities--bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#map__main .map {
+  padding-top: 50px;
+}
+
+#yk__main {
+  padding-top: 72px;
+}
+#yk__main .yk .yk--top h2 {
+  font-size: 2rem;
+  font-style: "Poppins", sans-serif;
+  font-weight: 300;
+  line-height: 64px;
+  letter-spacing: 2.88px;
+  color: #3F4255;
+}
+#yk__main .yk .yk--top span {
+  opacity: 0.5;
+}
+#yk__main .yk .yk-bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer {
+  padding: 48px 0px;
+  background: #3F4255;
+}
+footer .foot .foot--top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer .foot .foot--top .foot--title {
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 24px;
+}
+footer .foot .foot--top hr {
+  margin: 50px 0px;
+}
+footer .foot .foot--top img {
+  background: white;
+}
+footer .foot .foot--top .app {
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .foot .foot--top ul a, footer .foot .foot--top ul p {
+  font-family: Martel Sans;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  color: #D4D7E5;
+}
+footer .foot .foot--bottom {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer .foot .foot--bottom .foot--bottom_left i {
+  color: #D4D7E5;
+}
+footer .foot .foot--bottom .foot--bottom_right {
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .foot .foot--bottom .foot--bottom_right p {
+  color: #D4D7E5;
+  margin-left: 20px;
+}
+
+@media (min-width: 350px) and (max-width: 991.98px) {
+  .container {
+    width: 340px;
+    margin: auto;
+  }
+  #banner__main .banner .banner--left {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #banner__main .banner .banner--right img {
+    width: 100%;
+  }
+  #banner__main .banner--item img {
+    width: 100%;
+  }
+  #items__main img {
+    width: 100%;
+  }
+  #map__main img {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container {
+    width: 900px;
+    margin: auto;
+  }
+  #banner__main .banner .banner--left {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #banner__main .banner .banner--right img {
+    width: 100%;
+  }
+  #banner__main .banner--item img {
+    width: 100%;
+  }
+  #items__main img {
+    width: 100%;
+  }
+  #map__main img {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .container {
+    width: 1100px;
+    margin: auto;
+  }
+  #banner__main .banner {
+    flex-wrap: nowrap;
+  }
+  #banner__main .banner .banner--left {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #banner__main .banner .banner--right img {
+    width: 100%;
+  }
+  #banner__main .banner--item img {
+    width: 100%;
+  }
+  #items__main img {
+    width: 100%;
+  }
+  #map__main img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=home.css.map */
